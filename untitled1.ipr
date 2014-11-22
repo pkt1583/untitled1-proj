@@ -140,32 +140,4 @@
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
-  <component name="libraryTable">
-    <library name="Maven: root.project.projects:logging:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/projects/logging/1.0/logging-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/projects/logging/logging-1.0-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/projects/logging/1.0/logging-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/projects/logging/logging-1.0-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/projects/logging/1.0/logging-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: root.project:primary-source:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/primary-source/1.0/primary-source-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/proj-util/primary-source-1.0-javadoc.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/primary-source/1.0/primary-source-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/proj-util/primary-source-1.0-sources.jar!/" />
-        <root url="jar://$MAVEN_REPOSITORY$/root/project/primary-source/1.0/primary-source-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-  </component>
 </project>
