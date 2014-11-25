@@ -16,7 +16,7 @@
       <root id="root">
         <element id="javaee-facet-resources" facet="ejbs/ejb/EJB" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/ejbs/target/MANIFEST.MF" />
+          <element id="file-copy" path="D:\Pankaj\code\untitled1-proj\ejbs\target/MANIFEST.MF" />
         </element>
         <element id="module-output" name="ejbs" />
       </root>
@@ -32,7 +32,7 @@
       <root id="root">
         <element id="javaee-facet-resources" facet="ear/javaeeApplication/JavaEE" />
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/ear/target/MANIFEST.MF" />
+          <element id="file-copy" path="D:\Pankaj\code\untitled1-proj\ear\target/MANIFEST.MF" />
         </element>
         <element id="archive" name="ejbs-1.0.jar">
           <element id="artifact" artifact-name="ejbs:ejb exploded" />
@@ -62,10 +62,15 @@
             <element id="archive" name="proj-util-1.0.jar">
               <element id="module-output" name="proj-util" />
             </element>
+            <element id="library" level="project" name="Maven: org.joda:joda-money:0.10.0" />
+            <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />
+            <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.0" />
+            <element id="library" level="project" name="Maven: javax.faces:jsf-impl:1.2_15" />
+            <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           </element>
         </element>
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/servlets/servlet/target/MANIFEST.MF" />
+          <element id="file-copy" path="D:\Pankaj\code\untitled1-proj\servlets\servlet\target/MANIFEST.MF" />
         </element>
         <element id="javaee-facet-resources" facet="servlet/web/Web" />
       </root>
@@ -102,6 +107,7 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
@@ -111,11 +117,15 @@
     <option name="name" value="default" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="ejb" url="file://$PROJECT_DIR$/ejbs" />
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/ear" />
     <file type="web" url="file://$PROJECT_DIR$/servlets/servlet" />
   </component>
+  <component name="IdProvider" IDEtalkID="BF99FC98259162DA89F0610AB7BCD6E8" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -133,11 +143,90 @@
       <module fileurl="file://$PROJECT_DIR$/untitled1.iml" filepath="$PROJECT_DIR$/untitled1.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: javax.ejb:ejb-api:3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ejb/ejb-api/3.0/ejb-api-3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ejb/ejb-api/3.0/ejb-api-3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.faces:jsf-api:2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-api/2.0/jsf-api-2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-api/2.0/jsf-api-2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-api/2.0/jsf-api-2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.faces:jsf-impl:1.2_15">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-impl/1.2_15/jsf-impl-1.2_15.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-impl/1.2_15/jsf-impl-1.2_15-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/faces/jsf-impl/1.2_15/jsf-impl-1.2_15-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.persistence:persistence-api:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.servlet:servlet-api:2.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: joda-time:joda-time:2.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.5/joda-time-2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.5/joda-time-2.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.5/joda-time-2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.joda:joda-money:0.10.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-money/0.10.0/joda-money-0.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-money/0.10.0/joda-money-0.10.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-money/0.10.0/joda-money-0.10.0-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
 </project>
