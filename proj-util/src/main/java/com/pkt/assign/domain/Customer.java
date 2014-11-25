@@ -8,8 +8,16 @@ import java.util.Set;
  */
 public class Customer {
     private CustomerProfile customerProfile;
-    private Payment payment;
-    private Set<Bill> bills=new LinkedHashSet<Bill>();
+    private PaymentMethod payment;
+    private Set<Bill> bills = new LinkedHashSet<Bill>();
+
+    public PaymentMethod getPayment() {
+        return payment;
+    }
+
+    public void setPayment(PaymentMethod payment) {
+        this.payment = payment;
+    }
 
     public CustomerProfile getCustomerProfile() {
         return customerProfile;
@@ -17,14 +25,6 @@ public class Customer {
 
     public void setCustomerProfile(CustomerProfile customerProfile) {
         this.customerProfile = customerProfile;
-    }
-
-    public Payment getPayment() {
-        return payment;
-    }
-
-    public void setPayment(Payment payment) {
-        this.payment = payment;
     }
 
     public Set<Bill> getBills() {
@@ -35,7 +35,7 @@ public class Customer {
         this.bills = bills;
     }
 
-    public void addBill(Bill bill){
+    public void addBill(Bill bill) {
         this.bills.add(bill);
     }
 }

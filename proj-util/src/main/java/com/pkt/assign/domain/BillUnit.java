@@ -1,12 +1,14 @@
 package com.pkt.assign.domain;
 
-import com.pkt.assign.domain.util.Money;
+
+import org.joda.money.Money;
 
 /**
  * Created by pankaj on 23-11-2014.
  */
-public class BillUnit {
+public abstract class BillUnit {
     private Integer numberOfUnits;
+
     private Money perUnitPrice;
 
     public Integer getNumberOfUnits() {
@@ -25,7 +27,9 @@ public class BillUnit {
         this.perUnitPrice = perUnitPrice;
     }
 
-    public Money getAmountToBePaid(){
-        return perUnitPrice.multiply(numberOfUnits);
+    public Money getAmountToBePaid() {
+        return perUnitPrice.multipliedBy(numberOfUnits);
     }
+
+    public abstract String getDescription();
 }

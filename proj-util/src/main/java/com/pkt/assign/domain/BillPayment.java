@@ -3,21 +3,22 @@ package com.pkt.assign.domain;
 /**
  * Created by pankaj on 23-11-2014. This could also support one customer to multiple payment in future
  */
-public class CustomerPayment {
-    private Customer customer;
+public class BillPayment {
     private Payment payment;
+    private Bill bill;
 
-    public CustomerPayment(Customer customer, Payment payment) {
-        this.customer = customer;
+    public BillPayment(Payment payment, Bill bill) {
+
         this.payment = payment;
+        this.bill = bill;
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public Bill getBill() {
+        return bill;
     }
 
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
+    public void setBill(Bill bill) {
+        this.bill = bill;
     }
 
     public Payment getPayment() {

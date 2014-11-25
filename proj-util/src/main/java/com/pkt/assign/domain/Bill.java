@@ -1,11 +1,21 @@
 package com.pkt.assign.domain;
 
+import org.joda.time.DateTime;
+
 /**
  * Created by pankaj on 23-11-2014.
  */
-public class Bill {
-    private BillUnit billUnit;
+public abstract class Bill {
     private Customer customer;
+    private DateTime dueDate;
+
+    public DateTime getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(DateTime dueDate) {
+        this.dueDate = dueDate;
+    }
 
     public Customer getCustomer() {
         return customer;
@@ -15,11 +25,6 @@ public class Bill {
         this.customer = customer;
     }
 
-    public BillUnit getBillUnit() {
-        return billUnit;
-    }
+    public abstract BillUnit getBillUnit();
 
-    public void setBillUnit(BillUnit billUnit) {
-        this.billUnit = billUnit;
-    }
 }
